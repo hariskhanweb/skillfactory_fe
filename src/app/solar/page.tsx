@@ -3,8 +3,8 @@
 import { Building2, Globe, FileText, ArrowRight, ShieldCheck, X, Wrench, Settings, AlertCircle, Trash2, CheckCircle2 } from "lucide-react"
 import { useState } from "react"
 import { QRCodeSVG } from "qrcode.react"
+import Image from "next/image"
 import OemServiceLifecycleSection from "@/components/oem-service-lifecycle-section"
-import Hero from "@/components/Hero"
 
 export default function HomePage() {
   const [showQRCode, setShowQRCode] = useState(false)
@@ -15,19 +15,42 @@ export default function HomePage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <Hero
-        title={
-          <>
-            Your National Execution Partner for Solar Installation &amp; Lifecycle Management
-          </>
-        }
-        description="From rapid deployment to 24/7 O&amp;M, we provide the infrastructure to uphold your brand&apos;s performance promise."
-        buttonText="Get Started"
-        buttonLink="#get-started"
-        imageSrc="/oem-collage_02.png"
-        imageAlt="Solar Vendor Support Services"
-        showBadge={false}
-      />
+      <section className="relative overflow-hidden py-16 md:py-20 px-4 bg-gradient-to-b from-brand-50/60 to-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            {/* Left Content */}
+            <div className="text-left">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-sora">
+                Your National Execution Partner for Solar Installation &amp; Lifecycle Management
+              </h1>
+              <p className="text-base sm:text-lg text-subtext-light mb-8 leading-relaxed">
+                From rapid deployment to 24/7 O&amp;M, we provide the infrastructure to uphold your brand&apos;s performance promise.
+              </p>
+              <a
+                href="#get-started"
+                className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-brand-600 transition-colors"
+              >
+                Get Started
+                <ArrowRight className="size-5" />
+              </a>
+            </div>
+
+            {/* Right Content - Image */}
+            <div className="relative w-full mt-8 lg:mt-0">
+              <div className="relative w-full rounded-xl overflow-hidden aspect-[4/3] border border-gray-100">
+                <Image
+                  alt="Solar Vendor Support Services"
+                  className="w-full h-full object-cover"
+                  src="/oem-collage_02.png"
+                  width={600}
+                  height={450}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Solar Vendor Service Lifecycle Section */}
       <OemServiceLifecycleSection />
