@@ -1,8 +1,22 @@
 import React from "react";
 import Image from "next/image";
 
-const WhyChooseSolar = () => {
-  const cardData = [
+interface CardData {
+  title: string;
+  description: string;
+  imageUrl: string;
+}
+
+interface WhyChooseSolarProps {
+  title?: string;
+  description?: string;
+  cards?: CardData[];
+}
+
+const WhyChooseSolar = ({ 
+  title = "Why Choose a Career in Solar Energy?",
+  description = "The solar energy sector is booming, offering numerous opportunities for skilled professionals. Here's why a career in solar could be the right choice for you.",
+  cards = [
     {
       title: "Industry Growth",
       description: "The solar industry has seen a 145% capacity increase in 2024, creating a surge in job openings.",
@@ -23,22 +37,22 @@ const WhyChooseSolar = () => {
       description: "The solar sector is at the forefront of technological advancements, offering exciting opportunities for innovation.",
       imageUrl: "/solar-unsplash_04.jpg",
     },
-  ];
-
+  ]
+}: WhyChooseSolarProps) => {
   return (
     <section className="bg-white py-20 sm:py-24 px-5">
       <div className="max-w-7xl mx-auto">
         <div className="text-left">
           <h2 className="text-3xl sm:text-4xl font-bold text-black leading-tight font-sora">
-            Why Choose a Career in Solar Energy?
+            {title}
           </h2>
           <p className="mt-4 text-md text-subtext-light">
-            The solar energy sector is booming, offering numerous opportunities for skilled professionals. Here&apos;s why a career in solar could be the right choice for you.
+            {description}
           </p>
         </div>
         
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {cardData.map((card) => (
+          {cards.map((card) => (
             <div key={card.title} className="flex flex-col gap-3">
               <div className="relative w-full aspect-square rounded-lg overflow-hidden">
                 <Image

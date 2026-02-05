@@ -1,135 +1,16 @@
 // src/app/courses/[slug]/page.tsx
 
 import type { Metadata } from "next";
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Laptop, Home, Signal, Sun, Car, ArrowLeft, Check } from "lucide-react";
-
-interface Course {
-  id: string;
-  slug: string;
-  title: string;
-  jobOrientedPoints: string[];
-  workAs: string[];
-  whoCanJoin: string[];
-  icon: React.ReactNode;
-  imageAlt: string;
-  imageSrc: string;
-}
-
-const coursesData: Record<string, Course> = {
-  "laptop-repair-training": {
-    id: "1",
-    slug: "laptop-repair-training",
-    title: "Laptop Repair Training",
-    jobOrientedPoints: [
-      "Learn by doing",
-      "Real machines",
-      "Short-term training",
-    ],
-    workAs: [
-      "Laptop technician",
-      "Service center staff",
-      "Own repair shop",
-    ],
-    whoCanJoin: [
-      "10th pass & above",
-      "No experience needed",
-    ],
-    icon: <Laptop className="size-6 text-primary" />,
-    imageAlt: "Laptop repair lab, technician tools",
-    imageSrc: "/solar-unsplash_06.png",
-  },
-  "appliance-repair-training": {
-    id: "2",
-    slug: "appliance-repair-training",
-    title: "Home Appliance Repair Training",
-    jobOrientedPoints: [
-      "Learn by doing",
-      "Real machines",
-      "Short-term training",
-    ],
-    workAs: [
-      "Appliance technician",
-      "Service center staff",
-      "Own repair business",
-    ],
-    whoCanJoin: [
-      "10th pass & above",
-      "No experience needed",
-    ],
-    icon: <Home className="size-6 text-primary" />,
-    imageAlt: "Appliance repair practical",
-    imageSrc: "/solar-unsplash_07.png",
-  },
-  "telecom-5g-technician-training": {
-    id: "3",
-    slug: "telecom-5g-technician-training",
-    title: "Telecom 5G Technician Training",
-    jobOrientedPoints: [
-      "Learn by doing",
-      "Real equipment",
-      "Short-term training",
-    ],
-    workAs: [
-      "5G technician",
-      "Field service staff",
-      "Network installation specialist",
-    ],
-    whoCanJoin: [
-      "10th pass & above",
-      "No experience needed",
-    ],
-    icon: <Signal className="size-6 text-primary" />,
-    imageAlt: "Telecom field work, towers",
-    imageSrc: "/solar-unsplash_10.png",
-  },
-  "solar-technician-training": {
-    id: "4",
-    slug: "solar-technician-training",
-    title: "Solar Technician Training",
-    jobOrientedPoints: [
-      "Learn by doing",
-      "Real equipment",
-      "Short-term training",
-    ],
-    workAs: [
-      "Solar technician",
-      "Installation specialist",
-      "Own solar business",
-    ],
-    whoCanJoin: [
-      "10th pass & above",
-      "No experience needed",
-    ],
-    icon: <Sun className="size-6 text-primary" />,
-    imageAlt: "Solar panel installation",
-    imageSrc: "/solar-unsplash_08.png",
-  },
-  "ev-technician-training": {
-    id: "5",
-    slug: "ev-technician-training",
-    title: "EV Technician Training",
-    jobOrientedPoints: [
-      "Learn by doing",
-      "Real equipment",
-      "Short-term training",
-    ],
-    workAs: [
-      "EV technician",
-      "Service center staff",
-      "Own EV service shop",
-    ],
-    whoCanJoin: [
-      "10th pass & above",
-      "No experience needed",
-    ],
-    icon: <Car className="size-6 text-primary" />,
-    imageAlt: "EV training lab, electric vehicles",
-    imageSrc: "/solar-unsplash_09.png",
-  },
-};
+import { Check, Phone, MessageCircle, ArrowRight, User } from "lucide-react";
+import coursesData from "@/data/courses.json";
+import WhyChooseSolar from "@/components/WhyChooseSolar";
+import EligibilitySection from "@/components/EligibilitySection";
+import CurriculumSection from "@/components/CurriculumSection";
+import TeachingApproach from "@/components/TeachingApproach";
+import IndustryBenefits from "@/components/IndustryBenefits";
+import ContactSection from "@/components/ContactSection";
 
 // Generate static params for all courses
 export function generateStaticParams() {
@@ -141,7 +22,7 @@ export function generateStaticParams() {
 // Generate metadata for each course
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const course = coursesData[slug];
+  const course = coursesData[slug as keyof typeof coursesData];
 
   if (!course) {
     return {
@@ -150,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
-  const description = `Learn ${course.title.toLowerCase()}. ${course.jobOrientedPoints.join(". ")}. Work as ${course.workAs.join(", ")}. ${course.whoCanJoin.join(". ")}. Call now for course details.`;
+  const description = `Learn ${course.title.toLowerCase()}. Practical training. Job-oriented course. Call now for course details.`;
 
   return {
     title: course.title,
@@ -161,7 +42,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       "job-oriented course",
       "skill training",
       "hands-on learning",
-      ...course.workAs.map(role => role.toLowerCase()),
     ],
     openGraph: {
       title: course.title,
@@ -173,7 +53,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CourseDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const course = coursesData[slug];
+  const course = coursesData[slug as keyof typeof coursesData];
 
   if (!course) {
     return (
@@ -190,110 +70,126 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
 
   return (
     <>
-      {/* Page Title Section */}
-      <section className="relative overflow-hidden pt-10 px-4 sm:pt-10 sm:px-6 lg:pt-12 lg:px-8 bg-gradient-to-b from-brand-50/60 to-white">
-        <div className="max-w-7xl mx-auto">
-          {/* Back Button */}
-          <Link
-            href="/courses"
-            className="inline-flex items-center gap-2 text-subtext-light hover:text-primary mb-8 transition-colors"
-          >
-            <ArrowLeft className="size-4" />
-            <span>Back to Courses</span>
-          </Link>
-        </div>
-      </section>
+      <section className="relative overflow-hidden py-12 px-4 sm:py-16 sm:px-5 lg:py-20 lg:px-6">
+        {/* Subtle background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-50/60 to-white pointer-events-none" aria-hidden />
 
-      {/* Course Content Section */}
-      <section className="py-12 px-4 sm:py-16 sm:px-6 lg:py-20 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-            {/* Left Content */}
-            <div>
-              {/* Course Title */}
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 font-sora">
-                {course.title}
-              </h2>
+        <div className="relative max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 xl:gap-12 items-center">
+            {/* --- Text Content --- */}
+            <div className="text-left">
+              <h1 className="text-2xl font-bold text-gray-900 leading-tight tracking-tight font-sora sm:text-3xl lg:text-4xl xl:text-[2.75rem]" style={{ lineHeight: '120%' }}>
+                {"firstLine" in course.hero && (course.hero as any).firstLine ? (
+                  <>
+                    {(course.hero as any).firstLine}{" "}
+                    <span className="text-primary">{course.hero.titleHighlight}</span>
+                    {"secondLine" in course.hero && (course.hero as any).secondLine && (
+                      <>
+                        {" "}
+                        <span>{(course.hero as any).secondLine}</span>
+                      </>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    {course.hero.title}{" "}
+                    <span className="text-primary">{course.hero.titleHighlight}</span>
+                  </>
+                )}
+              </h1>
+              <p className="mt-3 text-sm text-subtext-light max-w-lg leading-relaxed sm:mt-4 sm:text-base">
+                {course.hero.subtitle && (
+                  <>
+                    {course.hero.subtitle}
+                    {course.hero.description && <br />}
+                  </>
+                )}
+                {course.hero.description && course.hero.description}
+              </p>
 
-              {/* Job-Oriented Practical Course */}
-              <div className="mb-8">
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 font-sora">
-                  Job-Oriented Practical Course
-                </h3>
-                <ul className="space-y-2">
-                  {course.jobOrientedPoints.map((point, index) => (
-                    <li key={index} className="flex items-center gap-3 text-base sm:text-lg text-subtext-light">
-                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                        <Check className="size-4 text-primary" />
-                      </div>
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* You Can Work As */}
-              <div className="mb-8">
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 font-sora">
-                  You Can Work As
-                </h3>
-                <ul className="space-y-2">
-                  {course.workAs.map((role, index) => (
-                    <li key={index} className="flex items-center gap-3 text-base sm:text-lg text-subtext-light">
-                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                        <Check className="size-4 text-primary" />
-                      </div>
-                      <span>{role}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Who Can Join */}
-              <div className="mb-8">
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 font-sora">
-                  Who Can Join
-                </h3>
-                <ul className="space-y-2">
-                  {course.whoCanJoin.map((criteria, index) => (
-                    <li key={index} className="flex items-center gap-3 text-base sm:text-lg text-subtext-light">
-                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-                        <Check className="size-4 text-primary" />
-                      </div>
-                      <span>{criteria}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* CTA Section */}
-              <div className="space-y-4">
-                <a
-                  href="tel:+923001234567"
-                  className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg text-base sm:text-lg font-semibold hover:bg-brand-600 transition-colors"
-                >
-                  <span>👉</span>
-                  <span>Call Now for Course Details</span>
-                </a>
-                <p className="text-sm sm:text-base text-red-600 font-semibold">
-                  Seats filling fast
-                </p>
+              {/* CTA block */}
+              <div className="mt-5 space-y-3 sm:mt-6">
+                <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
+                  <a
+                    href="#get-started"
+                    className="inline-flex items-center justify-center gap-2 bg-primary text-white px-5 py-3 rounded-lg text-base font-semibold hover:bg-brand-600 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:px-4 sm:py-2.5 sm:text-sm lg:min-w-[180px] lg:px-6 lg:py-4 lg:text-base"
+                  > 
+                    Get Enrolled Today
+                  </a>
+                </div>
               </div>
             </div>
 
-            {/* Right Content - Image */}
-            <div className="relative w-full mt-8 lg:mt-0">
-              <div className="relative w-full rounded-xl overflow-hidden aspect-[4/3] border border-gray-100">
+            {/* --- Image Content --- */}
+            <div className="relative mt-6 w-full lg:mt-0">
+              <div className="relative w-full rounded-xl overflow-hidden">
                 <Image
-                  alt={course.imageAlt}
-                  className="w-full h-full object-cover"
-                  src={course.imageSrc}
+                  alt={course.hero.imageAlt}
+                  className="w-full h-auto object-cover"
+                  src={course.hero.imageSrc}
                   width={600}
                   height={450}
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority
+                  sizes="100vw"
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <WhyChooseSolar
+        title={course.whyChoose.title}
+        description={course.whyChoose.description}
+        cards={course.whyChoose.cards}
+      />
+      <EligibilitySection
+        title={course.eligibility.title}
+        data={course.eligibility.data}
+      />
+      <CurriculumSection
+        title={course.curriculum.title}
+        description={course.curriculum.description}
+        items={course.curriculum.items}
+      />
+      <TeachingApproach
+        title={course.teachingApproach.title}
+        description={course.teachingApproach.description}
+        features={course.teachingApproach.features}
+        images={course.teachingApproach.images}
+      />
+      <IndustryBenefits
+        importanceTitle={course.industryBenefits.importanceTitle}
+        importanceHeading={course.industryBenefits.importanceHeading}
+        importanceData={course.industryBenefits.importanceData}
+        benefitsTitle={course.industryBenefits.benefitsTitle}
+        benefitsHeading={course.industryBenefits.benefitsHeading}
+        benefitsData={course.industryBenefits.benefitsData}
+      />
+      
+      {/* CTA Section */}
+      <section className="bg-primary py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 font-sora">
+            Start Your Enrollment Today
+          </h2>
+          <p className="text-lg text-white/90 mb-8">
+            Ready to begin your journey? Choose how you'd like to get started.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+            <a
+              href="#get-started"
+              className="inline-flex items-center justify-center gap-2 bg-white text-primary px-8 py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary min-w-[200px]"
+            >
+              Enroll Now
+              <ArrowRight className="size-5" aria-hidden />
+            </a>
+            <a
+              href="tel:+91-9911433433"
+              className="inline-flex items-center justify-center gap-2 bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary min-w-[200px]"
+            >
+              <User className="size-5" aria-hidden />
+              Talk to a Counsellor
+            </a>
           </div>
         </div>
       </section>

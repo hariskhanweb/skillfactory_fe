@@ -7,7 +7,12 @@ import Image from "next/image";
 import { Phone, MessageCircle } from "lucide-react";
 
 interface HeroProps {
+  title?: string;
+  titleHighlight?: string;
+  subtitle?: string;
+  description?: string;
   imageSrc?: string;
+  imageAlt?: string;
   callLink?: string;
   whatsappLink?: string;
   className?: string;
@@ -20,7 +25,12 @@ const checkIcon = (
 );
 
 const Hero = ({
+  title = "Learn a Skill.",
+  titleHighlight = "Start Working Fast.",
+  subtitle = "High-demand technician courses.",
+  description = "Practical training. Limited seats.",
   imageSrc = "/solar-unsplash.png",
+  imageAlt = "Students working in lab, trainers guiding, real machines",
   callLink = "tel:+923001234567",
   whatsappLink = "https://wa.me/923001234567",
   className = "",
@@ -38,13 +48,17 @@ const Hero = ({
           {/* --- Text Content --- */}
           <div className="text-left">
             <h1 className="text-2xl font-bold text-gray-900 leading-tight tracking-tight font-sora sm:text-3xl lg:text-4xl xl:text-[2.75rem]">
-              Learn a Skill.{" "}
-              <span className="text-primary block mt-1">Start Working Fast.</span>
+              {title}{" "}
+              <span className="text-primary block mt-1">{titleHighlight}</span>
             </h1>
             <p className="mt-3 text-sm text-subtext-light max-w-xl leading-relaxed sm:mt-4 sm:text-base">
-              High-demand technician courses.
-              <br />
-              Practical training. Limited seats.
+              {subtitle}
+              {description && (
+                <>
+                  <br />
+                  {description}
+                </>
+              )}
             </p>
 
             {/* Why Join card */}
@@ -100,7 +114,7 @@ const Hero = ({
           <div className="relative mt-6 w-full lg:mt-0">
             <div className="relative w-full rounded-xl overflow-hidden">
               <Image
-                alt="Students working in lab, trainers guiding, real machines"
+                alt={imageAlt}
                 className="w-full h-auto object-cover"
                 src={imageSrc}
                 width={600}

@@ -8,8 +8,19 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"; // Import from shadcn/ui
 
-// Data for the accordion items
-const curriculumData = [
+interface CurriculumItem {
+  id: string;
+  title: string;
+  content: string;
+}
+
+interface CurriculumSectionProps {
+  title?: string;
+  description?: string;
+  items?: CurriculumItem[];
+}
+
+const defaultCurriculumData: CurriculumItem[] = [
     {
       id: "item-1",
       title: "Solar Fundamentals & Electrical Concepts",
@@ -42,23 +53,27 @@ const curriculumData = [
     },
 ];
 
-const CurriculumSection = () => {
+const CurriculumSection = ({
+  title = "What We Will Teach",
+  description = "Our comprehensive curriculum covers every aspect of the solar energy industry.",
+  items = defaultCurriculumData
+}: CurriculumSectionProps) => {
   return (
     <section id="services" className="bg-brand-50 py-20 sm:py-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-black font-sora">
-            What We Will Teach
+            {title}
           </h2>
           <p className="mt-4 text-lg text-subtext-light">
-            Our comprehensive curriculum covers every aspect of the solar energy industry.
+            {description}
           </p>
         </div>
 
         {/* Shadcn Accordion */}
-        <Accordion type="single" collapsible defaultValue="item-1" className="w-full space-y-4">
-          {curriculumData.map((item) => (
+        <Accordion type="single" collapsible defaultValue={items[0]?.id || "item-1"} className="w-full space-y-4">
+          {items.map((item) => (
             <AccordionItem key={item.id} value={item.id} className="bg-white rounded-lg shadow-md border-b-0">
               <AccordionTrigger className="p-6 text-left text-lg sm:text-xl font-semibold text-black hover:no-underline">
                 {item.title}

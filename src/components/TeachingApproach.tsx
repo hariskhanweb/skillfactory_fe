@@ -4,35 +4,58 @@ import React from "react";
 import Image from "next/image";
 import { Award, Beaker, Code, PieChart, Users } from "lucide-react";
 
-const features = [
+interface Feature {
+  title: string;
+  description: string;
+}
+
+interface TeachingApproachProps {
+  title?: string;
+  description?: string;
+  features?: Feature[];
+  images?: string[];
+}
+
+const defaultFeatures: Feature[] = [
   {
-    icon: <PieChart className="h-6 w-6 text-primary" />,
     title: "70:30 Theory-Practical Ratio",
     description: "Emphasis on hands-on learning to build real-world skills.",
   },
   {
-    icon: <Users className="h-6 w-6 text-primary" />,
     title: "Industry Expert Faculty",
     description: "Learn from professionals with over 10 years of experience.",
   },
   {
-    icon: <Code className="h-6 w-6 text-primary" />,
     title: "Real Project Exposure & Software Training",
     description: "Gain practical experience through live projects and modern software.",
   },
   {
-    icon: <Beaker className="h-6 w-6 text-primary" />,
     title: "Modern Lab Facilities & Industry Visits",
     description: "Access to state-of-the-art labs and insightful industry tours.",
   },
   {
-    icon: <Award className="h-6 w-6 text-primary" />,
     title: "Multiple Certifications",
     description: "Earn valuable certifications from SCGJ, NSDC, and Suryamitra.",
   },
 ];
 
-const TeachingApproach = () => {
+const iconMap: Record<string, React.ReactNode> = {
+  "70:30 Theory-Practical Ratio": <PieChart className="h-6 w-6 text-primary" />,
+  "Industry Expert Faculty": <Users className="h-6 w-6 text-primary" />,
+  "Real Project Exposure & Software Training": <Code className="h-6 w-6 text-primary" />,
+  "Modern Lab Facilities & Industry Visits": <Beaker className="h-6 w-6 text-primary" />,
+  "Multiple Certifications": <Award className="h-6 w-6 text-primary" />,
+  "Real Project Exposure": <Code className="h-6 w-6 text-primary" />,
+  "Field Training": <Users className="h-6 w-6 text-primary" />,
+  "Certification": <Award className="h-6 w-6 text-primary" />,
+};
+
+const TeachingApproach = ({
+  title = "How We Will Teach",
+  description = "We focus on a practical, hands-on approach to ensure our students are industry-ready.",
+  features = defaultFeatures,
+  images = ["/solar-unsplash_07.jpg", "/solar-unsplash_06.jpg", "/solar-unsplash_05.jpg"]
+}: TeachingApproachProps) => {
   return (
     <section id="products" className="bg-white py-20 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,7 +69,7 @@ const TeachingApproach = () => {
                 <Image
                   alt="Industry expert faculty member teaching students"
                   className="rounded-lg shadow-lg object-cover"
-                  src="/solar-unsplash_07.jpg"
+                  src={images[0] || "/solar-unsplash_07.jpg"}
                   fill
                   sizes="(max-width: 640px) 50vw, 300px"
                 />
@@ -54,9 +77,9 @@ const TeachingApproach = () => {
               {/* Aspect Ratio Container */}
               <div className="relative w-full aspect-square">
                 <Image
-                  alt="Students working on a solar panel installation project"
+                  alt="Students working on a project"
                   className="rounded-lg shadow-lg object-cover"
-                  src="/solar-unsplash_06.jpg"
+                  src={images[1] || "/solar-unsplash_06.jpg"}
                   fill
                   sizes="(max-width: 640px) 50vw, 300px"
                 />
@@ -65,9 +88,9 @@ const TeachingApproach = () => {
             {/* Aspect Ratio Container */}
             <div className="relative w-full aspect-[16/9] sm:aspect-[2/1]">
               <Image
-                alt="Modern lab with solar panel equipment"
+                alt="Modern lab with equipment"
                 className="rounded-lg shadow-lg object-cover"
-                src="/solar-unsplash_05.jpg"
+                src={images[2] || "/solar-unsplash_05.jpg"}
                 fill
                 sizes="(max-width: 640px) 100vw, 624px"
               />
@@ -77,16 +100,16 @@ const TeachingApproach = () => {
           {/* --- Text Content (no changes) --- */}
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-black mb-4 font-sora">
-              How We Will Teach
+              {title}
             </h2>
             <p className="text-subtext-light mb-8 text-lg">
-              We focus on a practical, hands-on approach to ensure our students are industry-ready.
+              {description}
             </p>
             <div className="space-y-6">
               {features.map((feature) => (
                 <div key={feature.title} className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-primary-light-bg bg-brand-50 rounded-lg flex items-center justify-center">
-                    {feature.icon}
+                    {iconMap[feature.title] || <PieChart className="h-6 w-6 text-primary" />}
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg text-black">

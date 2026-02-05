@@ -16,12 +16,12 @@ const contactDetails = [
   {
     icon: <Mail className="h-6 w-6 text-primary" />,
     title: "Email",
-    value: "support@techlocal.com",
+    value: "support@skillfactory.in",
   },
   {
     icon: <Globe className="h-6 w-6 text-primary" />,
     title: "Website",
-    value: "www.techlocal.com",
+    value: "www.skillfactory.in",
   },
 ];
 

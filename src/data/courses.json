@@ -1,0 +1,808 @@
+{
+  "laptop-repair-training": {
+    "id": "1",
+    "slug": "laptop-repair-training",
+    "title": "Laptop Repair Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Building Tomorrow with",
+      "titleHighlight": "Smarter",
+      "secondLine": "IT Skills",
+      "subtitle": "",
+      "description": "Learn practical laptop repair and basic networking skills to power homes, offices, and small businesses.",
+      "imageSrc": "/solar-unsplash_06.png",
+      "imageAlt": "Laptop repair lab, technician tools"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in IT & Laptop Repair?",
+      "description": "The demand for skilled computer technicians is rising across service centers, offices, and local businesses.",
+      "cards": [
+        {
+          "title": "Industry Growth",
+          "description": "IT hardware support continues to grow with increasing device usage.",
+          "imageUrl": "/solar-unsplash_01.jpg"
+        },
+        {
+          "title": "Job Security",
+          "description": "Every office and home needs regular system maintenance.",
+          "imageUrl": "/solar-unsplash_02.jpg"
+        },
+        {
+          "title": "Everyday Relevance",
+          "description": "Skills used daily across industries.",
+          "imageUrl": "/solar-unsplash_03.jpg"
+        },
+        {
+          "title": "Technology Evolution",
+          "description": "Continuous upgrades create long-term opportunities.",
+          "imageUrl": "/solar-unsplash_04.jpg"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll in Our Laptop Repair Program",
+      "data": [
+        {
+          "title": "Educational Background",
+          "points": [
+            "10th / 12th Pass",
+            "ITI / Diploma holders",
+            "Engineering graduates"
+          ]
+        },
+        {
+          "title": "Professional Background",
+          "points": [
+            "Freshers",
+            "Service technicians",
+            "Career switchers"
+          ]
+        },
+        {
+          "title": "Language Skills",
+          "points": [
+            "Basic English or Hindi",
+            "Ability to understand instructions"
+          ]
+        },
+        {
+          "title": "Special Focus Groups",
+          "points": [
+            "Unemployed youth",
+            "Small business aspirants"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers every aspect of laptop and computer repair.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Laptop Hardware Fundamentals",
+          "content": "Understanding internal components and system architecture."
+        },
+        {
+          "id": "item-2",
+          "title": "Operating Systems & Software",
+          "content": "Installation, configuration, and troubleshooting."
+        },
+        {
+          "id": "item-3",
+          "title": "Networking Basics",
+          "content": "LAN setup, routers, and connectivity issues."
+        },
+        {
+          "id": "item-4",
+          "title": "Diagnostics & Repair",
+          "content": "Identifying and resolving common faults."
+        },
+        {
+          "id": "item-5",
+          "title": "Customer Handling Basics",
+          "content": "Service workflow and communication."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "",
+      "features": [
+        {
+          "title": "70:30 Practical to Theory Ratio",
+          "description": ""
+        },
+        {
+          "title": "Industry-experienced trainers",
+          "description": ""
+        },
+        {
+          "title": "Hands-on lab practice",
+          "description": ""
+        },
+        {
+          "title": "Real fault simulation",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/solar-unsplash_07.jpg",
+        "/solar-unsplash_06.jpg",
+        "/solar-unsplash_05.jpg"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The Laptop Repair Industry is thriving. Are you ready?",
+      "importanceData": [
+        {
+          "title": "Digital Expansion",
+          "description": "Every sector relies on computers."
+        },
+        {
+          "title": "Hardware Maintenance Demand",
+          "description": "Devices require regular servicing."
+        },
+        {
+          "title": "Service Business Opportunity",
+          "description": "Low-investment, high-demand skill."
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and stable career.",
+      "benefitsData": [
+        {
+          "title": "Immediate Employability",
+          "description": "Start working after training."
+        },
+        {
+          "title": "Career Progression",
+          "description": "Technician → Senior Tech → Business Owner."
+        },
+        {
+          "title": "Self-Employment Ready",
+          "description": "Repair shop & freelance work."
+        }
+      ]
+    }
+  },
+  "appliance-repair-training": {
+    "id": "2",
+    "slug": "appliance-repair-training",
+    "title": "Home Appliance Repair Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Powering Homes with",
+      "titleHighlight": "Skilled",
+      "secondLine": "Appliance Technicians",
+      "subtitle": "",
+      "description": "Learn hands-on repair skills for ACs, refrigerators, washing machines, and more.",
+      "imageSrc": "/solar-unsplash_07.png",
+      "imageAlt": "Appliance repair practical"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in Appliance Repair?",
+      "description": "Appliances are essential in every home, creating constant demand for skilled technicians.",
+      "cards": [
+        {
+          "title": "Consistent Demand",
+          "description": "Every household needs servicing.",
+          "imageUrl": "/solar-unsplash_01.jpg"
+        },
+        {
+          "title": "Local Job Opportunities",
+          "description": "Work in your own city.",
+          "imageUrl": "/solar-unsplash_02.jpg"
+        },
+        {
+          "title": "Field-Based Career",
+          "description": "Hands-on practical work.",
+          "imageUrl": "/solar-unsplash_03.jpg"
+        },
+        {
+          "title": "Stable Income Potential",
+          "description": "Daily service requirements.",
+          "imageUrl": "/solar-unsplash_04.jpg"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll",
+      "data": [
+        {
+          "title": "Eligibility",
+          "points": [
+            "10th / 12th pass students",
+            "ITI / Diploma holders",
+            "Electricians",
+            "Freshers & working professionals"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers repair of all major home appliances.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Electrical fundamentals",
+          "content": "Learn the basics of electrical systems and circuits as they apply to appliance repair."
+        },
+        {
+          "id": "item-2",
+          "title": "AC installation & servicing",
+          "content": "Master air conditioner installation, maintenance, and repair techniques."
+        },
+        {
+          "id": "item-3",
+          "title": "Refrigerator cooling systems",
+          "content": "Understand refrigerator cooling mechanisms, troubleshooting, and repair procedures."
+        },
+        {
+          "id": "item-4",
+          "title": "Washing machine repair",
+          "content": "Learn to diagnose and fix common washing machine issues and malfunctions."
+        },
+        {
+          "id": "item-5",
+          "title": "Microwave diagnostics",
+          "content": "Master microwave troubleshooting and repair techniques."
+        },
+        {
+          "id": "item-6",
+          "title": "Safety procedures",
+          "content": "Understand essential safety protocols and procedures for appliance repair work."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "",
+      "features": [
+        {
+          "title": "Practical demonstrations",
+          "description": ""
+        },
+        {
+          "title": "Real appliance handling",
+          "description": ""
+        },
+        {
+          "title": "Instructor-guided repair",
+          "description": ""
+        },
+        {
+          "title": "Field-oriented training",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/solar-unsplash_07.jpg",
+        "/solar-unsplash_06.jpg",
+        "/solar-unsplash_05.jpg"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The Appliance Repair Industry is essential. Are you ready?",
+      "importanceData": [
+        {
+          "title": "High appliance penetration",
+          "description": ""
+        },
+        {
+          "title": "Rising service dependency",
+          "description": ""
+        },
+        {
+          "title": "Shortage of trained technicians",
+          "description": ""
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and flexible career.",
+      "benefitsData": [
+        {
+          "title": "Quick job readiness",
+          "description": ""
+        },
+        {
+          "title": "Field technician roles",
+          "description": ""
+        },
+        {
+          "title": "Independent service work",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "telecom-5g-technician-training": {
+    "id": "3",
+    "slug": "telecom-5g-technician-training",
+    "title": "Telecom 5G Technician Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Connecting the Future with",
+      "titleHighlight": "Telecom & 5G Skills",
+      "secondLine": "",
+      "subtitle": "",
+      "description": "Train for telecom infrastructure, network support, and field operations.",
+      "imageSrc": "/solar-unsplash_10.png",
+      "imageAlt": "Solar panel installation"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in Telecom?",
+      "description": "Telecom networks are expanding rapidly with 5G rollout.",
+      "cards": [
+        {
+          "title": "Network Expansion",
+          "description": "More towers, more technicians.",
+          "imageUrl": "/solar-unsplash_01.jpg"
+        },
+        {
+          "title": "Infrastructure Growth",
+          "description": "Fiber and wireless deployment.",
+          "imageUrl": "/solar-unsplash_02.jpg"
+        },
+        {
+          "title": "Field-Based Roles",
+          "description": "Outdoor technical careers.",
+          "imageUrl": "/solar-unsplash_03.jpg"
+        },
+        {
+          "title": "Technology Advancement",
+          "description": "5G and next-gen networks.",
+          "imageUrl": "/solar-unsplash_04.jpg"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll",
+      "data": [
+        {
+          "title": "Eligibility",
+          "points": [
+            "10th / 12th pass students",
+            "ITI / Diploma holders",
+            "Electronics learners",
+            "Field-work interested candidates"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers every aspect of the solar energy industry.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Telecom fundamentals",
+          "content": "Learn the basics of telecommunications systems, network architecture, and communication principles."
+        },
+        {
+          "id": "item-2",
+          "title": "Mobile network basics",
+          "content": "Understand mobile network technologies, signal transmission, and cellular network operations."
+        },
+        {
+          "id": "item-3",
+          "title": "Tower equipment overview",
+          "content": "Learn about telecom tower components, antenna systems, and tower infrastructure."
+        },
+        {
+          "id": "item-4",
+          "title": "Fiber optic fundamentals",
+          "content": "Master fiber optic cable installation, splicing, and maintenance techniques."
+        },
+        {
+          "id": "item-5",
+          "title": "Safety & field practices",
+          "content": "Understand essential safety protocols and best practices for field work in telecom."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "We focus on a practical, hands-on approach to ensure our students are industry-ready.",
+      "features": [
+        {
+          "title": "Concept sessions",
+          "description": ""
+        },
+        {
+          "title": "Equipment demonstrations",
+          "description": ""
+        },
+        {
+          "title": "Field simulations",
+          "description": ""
+        },
+        {
+          "title": "Safety-focused training",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/solar-unsplash_07.jpg",
+        "/solar-unsplash_06.jpg",
+        "/solar-unsplash_05.jpg"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The telecom industry is expanding rapidly. Are you ready?",
+      "importanceData": [
+        {
+          "title": "Nationwide 5G deployment",
+          "description": ""
+        },
+        {
+          "title": "Continuous network upgrades",
+          "description": ""
+        },
+        {
+          "title": "Skilled manpower shortage",
+          "description": ""
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+        "benefitsHeading": "Build a rewarding and stable career.",
+        "benefitsData": [
+        {
+          "title": "Telecom field technician roles",
+          "description": ""
+        },
+        {
+          "title": "Network support jobs",
+          "description": ""
+        },
+        {
+          "title": "Infrastructure projects",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "solar-technician-training": {
+    "id": "4",
+    "slug": "solar-technician-training",
+    "title": "Solar Technician Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Shaping tomorrow with",
+      "titleHighlight": "Smarter Solar",
+      "secondLine": "Solutions",
+      "subtitle": "",
+      "description": "Discover affordable, reliable, and innovative solar technologies built to power your home, business, and community while protecting our planet.",
+      "imageSrc": "/solar-unsplash_08.png",
+      "imageAlt": "Solar panel installation"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in Solar Energy?",
+      "description": "The solar energy sector is booming, offering numerous opportunities for skilled professionals. Here's why a career in solar could be the right choice for you.",
+      "cards": [
+        {
+          "title": "Industry Growth",
+          "description": "The solar industry has seen a 145% capacity increase in 2024, creating a surge in job openings.",
+          "imageUrl": "/solar-unsplash_01.jpg"
+        },
+        {
+          "title": "Job Security",
+          "description": "Solar jobs are projected to grow 105% over the next decade, ensuring long-term career stability.",
+          "imageUrl": "/solar-unsplash_02.jpg"
+        },
+        {
+          "title": "Environmental Impact",
+          "description": "Working in solar directly contributes to a sustainable future, reducing reliance on fossil fuels.",
+          "imageUrl": "/solar-unsplash_03.jpg"
+        },
+        {
+          "title": "Innovation",
+          "description": "The solar sector is at the forefront of technological advancements, offering exciting opportunities for innovation.",
+          "imageUrl": "/solar-unsplash_04.jpg"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll in Our Solar Training Program",
+      "data": [
+        {
+          "title": "Educational Background",
+          "points": [
+            "10th Pass students",
+            "12th Pass students",
+            "ITI holders (Electrician/Wireman/Electronics/Fitter)",
+            "Diploma holders (Technical streams)",
+            "Engineering graduates"
+          ]
+        },
+        {
+          "title": "Professional Background",
+          "points": [
+            "Electricians seeking career advancement",
+            "EV charger installers",
+            "Maintenance technicians",
+            "Fresh graduates",
+            "Career changers"
+          ]
+        },
+        {
+          "title": "Language Skills",
+          "points": [
+            "Basic understanding of English OR Hindi",
+            "Ability to read technical documents",
+            "Communication skills for customer interaction"
+          ]
+        },
+        {
+          "title": "Special Focus Groups",
+          "points": [
+            "Unemployed youth",
+            "Women candidates",
+            "Rural area candidates",
+            "Ex-servicemen",
+            "Aspiring entrepreneurs"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers every aspect of the solar energy industry.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Solar Fundamentals & Electrical Concepts",
+          "content": "Dive into the core principles of solar energy, including photovoltaic (PV) effect, solar radiation, and basic electrical theory. Understand circuits, voltage, current, and resistance as they apply to solar PV systems."
+        },
+        {
+          "id": "item-2",
+          "title": "System Components & Design",
+          "content": "Learn about the various components of a solar PV system, including modules, inverters, racking, and batteries. Gain hands-on experience with system sizing, component selection, and creating effective site layouts and electrical diagrams."
+        },
+        {
+          "id": "item-3",
+          "title": "Installation & Safety Procedures",
+          "content": "Master the best practices for residential and commercial solar installations. This module emphasizes safety protocols, including fall protection, electrical safety (lockout/tagout), and proper handling of equipment according to OSHA and NEC standards."
+        },
+        {
+          "id": "item-4",
+          "title": "Testing & Commissioning",
+          "content": "Understand the critical final steps of a project. This includes system verification, performance testing, and troubleshooting common issues. Learn how to properly commission a system to ensure it operates safely and efficiently."
+        },
+        {
+          "id": "item-5",
+          "title": "Maintenance & Operations",
+          "content": "Explore the long-term care of solar PV systems. This module covers preventative maintenance schedules, performance monitoring techniques, and common repair procedures to maximize the system's lifespan and energy production."
+        },
+        {
+          "id": "item-6",
+          "title": "Business & Entrepreneurship Skills",
+          "content": "Gain the knowledge to succeed in the business side of solar. Topics include project cost analysis, financing options, proposal writing, customer acquisition, and understanding local permits and utility interconnection processes."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "We focus on a practical, hands-on approach to ensure our students are industry-ready.",
+      "features": [
+        {
+          "title": "70:30 Theory-Practical Ratio",
+          "description": "Emphasis on hands-on learning to build real-world skills."
+        },
+        {
+          "title": "Industry Expert Faculty",
+          "description": "Learn from professionals with over 10 years of experience."
+        },
+        {
+          "title": "Real Project Exposure & Software Training",
+          "description": "Gain practical experience through live projects and modern software."
+        },
+        {
+          "title": "Modern Lab Facilities & Industry Visits",
+          "description": "Access to state-of-the-art labs and insightful industry tours."
+        },
+        {
+          "title": "Multiple Certifications",
+          "description": "Earn valuable certifications from SCGJ, NSDC, and Suryamitra."
+        }
+      ],
+      "images": [
+        "/solar-unsplash_07.jpg",
+        "/solar-unsplash_06.jpg",
+        "/solar-unsplash_05.jpg"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The Solar Industry is booming. Are you ready?",
+      "importanceData": [
+        {
+          "title": "Government Push",
+          "description": "PM Surya Ghar aims to train 100,000 professionals, creating massive demand for skilled workers."
+        },
+        {
+          "title": "Technology Shift",
+          "description": "The industry is moving towards TOPCon/HJT technologies, requiring new and updated skill sets."
+        },
+        {
+          "title": "Crisis & Opportunity",
+          "description": "A 20% industry turnover is creating immediate openings for trained professionals to fill the gap."
+        },
+        {
+          "title": "Future Integration",
+          "description": "Prepare for the future of energy with EV charging, battery storage, and smart grid integration."
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and future-proof career.",
+      "benefitsData": [
+        {
+          "title": "Immediate Employment",
+          "description": "With our 100% placement assistance, you can start your career right after training."
+        },
+        {
+          "title": "Career Progression",
+          "description": "Follow a clear path from Installer to Supervisor, Manager, and even Business Owner."
+        },
+        {
+          "title": "Entrepreneurship",
+          "description": "Receive guidance on business setup and get connected with our network of vendors."
+        },
+        {
+          "title": "Future-Proof Career",
+          "description": "Join an industry with a projected 16%+ annual growth rate, ensuring long-term stability."
+        }
+      ]
+    }
+  },
+  "ev-technician-training": {
+    "id": "5",
+    "slug": "ev-technician-training",
+    "title": "EV Technician Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Driving the Future with",
+      "titleHighlight": "Electric Vehicle Skills",
+      "subtitle": "",
+      "description": "Practical training. Limited seats.",
+      "imageSrc": "/solar-unsplash_09.png",
+      "imageAlt": "EV training lab, electric vehicles"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in EV Technology?",
+      "description": "Electric mobility is reshaping the automotive industry.",
+      "cards": [
+        {
+          "title": "Industry Shift",
+          "description": "Transition from fuel to electric.",
+          "imageUrl": "/solar-unsplash_01.jpg"
+        },
+        {
+          "title": "High Skill Demand",
+          "description": "Limited trained EV technicians.",
+          "imageUrl": "/solar-unsplash_02.jpg"
+        },
+        {
+          "title": "Technology-Driven Career",
+          "description": "Modern automotive systems.",
+          "imageUrl": "/solar-unsplash_03.jpg"
+        },
+        {
+          "title": "Future-Ready Skill",
+          "description": "Long-term industry relevance.",
+          "imageUrl": "/solar-unsplash_04.jpg"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll in Our EV Technician Training Program",
+      "data": [
+        {
+          "title": "Eligibility",
+          "points": [
+            "ITI / Diploma holders",
+            "Automotive technicians",
+            "Engineering graduates",
+            "Career switchers"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers all aspects of electric vehicle technology and servicing.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "EV system overview",
+          "content": "Understand the overall architecture and components of electric vehicle systems."
+        },
+        {
+          "id": "item-2",
+          "title": "Battery fundamentals",
+          "content": "Learn the basics of EV battery technology, types, and management systems."
+        },
+        {
+          "id": "item-3",
+          "title": "Motor & controller basics",
+          "content": "Understand electric motor operation and controller systems in EVs."
+        },
+        {
+          "id": "item-4",
+          "title": "Charging systems",
+          "content": "Master EV charging infrastructure, AC/DC charging, and charging protocols."
+        },
+        {
+          "id": "item-5",
+          "title": "Safety procedures",
+          "content": "Learn essential safety protocols for working with high-voltage EV systems."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "We focus on a practical, hands-on approach to ensure our students are industry-ready.",
+      "features": [
+        {
+          "title": "Classroom learning",
+          "description": ""
+        },
+        {
+          "title": "Demonstration-based training",
+          "description": ""
+        },
+        {
+          "title": "Practical exposure",
+          "description": ""
+        },
+        {
+          "title": "Safety-first approach",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/solar-unsplash_07.jpg",
+        "/solar-unsplash_06.jpg",
+        "/solar-unsplash_05.jpg"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The EV Industry is the future. Are you ready?",
+      "importanceData": [
+        {
+          "title": "Government EV push",
+          "description": ""
+        },
+        {
+          "title": "Rapid adoption",
+          "description": ""
+        },
+        {
+          "title": "New service infrastructure",
+          "description": ""
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and future-proof career.",
+      "benefitsData": [
+        {
+          "title": "EV service technician roles",
+          "description": ""
+        },
+        {
+          "title": "Automotive upskilling",
+          "description": ""
+        },
+        {
+          "title": "Future mobility careers",
+          "description": ""
+        }
+      ]
+    }
+  }
+}
