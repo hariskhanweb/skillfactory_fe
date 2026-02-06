@@ -10,7 +10,7 @@
       "secondLine": "Solutions",
       "subtitle": "",
       "description": "Discover affordable, reliable, and innovative solar technologies built to power your home, business, and community while protecting our planet.",
-      "imageSrc": "/solar-unsplash_08.png",
+      "imageSrc": "/images/solar/solar_04.png",
       "imageAlt": "Solar panel installation"
     },
     "whyChoose": {
@@ -20,22 +20,22 @@
         {
           "title": "Industry Growth",
           "description": "The solar industry has seen a 145% capacity increase in 2024, creating a surge in job openings.",
-          "imageUrl": "/solar-unsplash_01.jpg"
+          "imageUrl": "/images/solar/solar_01.png"
         },
         {
           "title": "Job Security",
           "description": "Solar jobs are projected to grow 105% over the next decade, ensuring long-term career stability.",
-          "imageUrl": "/solar-unsplash_02.jpg"
+          "imageUrl": "/images/solar/solar_02.png"
         },
         {
           "title": "Environmental Impact",
           "description": "Working in solar directly contributes to a sustainable future, reducing reliance on fossil fuels.",
-          "imageUrl": "/solar-unsplash_03.jpg"
+          "imageUrl": "/images/solar/solar_03.png"
         },
         {
           "title": "Innovation",
           "description": "The solar sector is at the forefront of technological advancements, offering exciting opportunities for innovation.",
-          "imageUrl": "/solar-unsplash_04.jpg"
+          "imageUrl": "/images/solar/solar_05.png"
         }
       ]
     },
@@ -45,39 +45,32 @@
         {
           "title": "Educational Background",
           "points": [
-            "10th Pass students",
-            "12th Pass students",
-            "ITI holders (Electrician/Wireman/Electronics/Fitter)",
-            "Diploma holders (Technical streams)",
-            "Engineering graduates"
+            "10th / 12th Pass",
+            "ITI / Diploma holders",
+            "Engineering graduates",
+            "Freshers & working professionals"
           ]
         },
         {
           "title": "Professional Background",
           "points": [
-            "Electricians seeking career advancement",
-            "EV charger installers",
-            "Maintenance technicians",
-            "Fresh graduates",
-            "Career changers"
+            "Freshers",
+            "Service technicians",
+            "Career switchers"
           ]
         },
         {
           "title": "Language Skills",
           "points": [
-            "Basic understanding of English OR Hindi",
-            "Ability to read technical documents",
-            "Communication skills for customer interaction"
+            "Basic English, Hindi or the regional language.",
+            "Ability to understand instructions"
           ]
         },
         {
           "title": "Special Focus Groups",
           "points": [
             "Unemployed youth",
-            "Women candidates",
-            "Rural area candidates",
-            "Ex-servicemen",
-            "Aspiring entrepreneurs"
+            "Small business aspirants"
           ]
         }
       ]
@@ -144,9 +137,9 @@
         }
       ],
       "images": [
-        "/solar-unsplash_07.jpg",
-        "/solar-unsplash_06.jpg",
-        "/solar-unsplash_05.jpg"
+        "/images/solar/solar_06.png",
+        "/images/solar/solar_07.png",
+        "/images/solar/solar_08.png"
       ]
     },
     "industryBenefits": {
@@ -203,7 +196,7 @@
       "secondLine": "Appliance Technicians",
       "subtitle": "",
       "description": "Learn hands-on repair skills for ACs, refrigerators, washing machines, and more.",
-      "imageSrc": "/images/appliance_03.png",
+      "imageSrc": "/images/appliances/appliance_03.png",
       "imageAlt": "Appliance repair practical"
     },
     "whyChoose": {
@@ -213,22 +206,22 @@
         {
           "title": "Consistent Demand",
           "description": "Every household needs servicing.",
-          "imageUrl": "/images/appliance_01.png"
+          "imageUrl": "/images/appliances/appliance_01.png"
         },
         {
           "title": "Local Job Opportunities",
           "description": "Work in your own city.",
-          "imageUrl": "/images/appliance_02.png"
+          "imageUrl": "/images/appliances/appliance_02.png"
         },
         {
           "title": "Field-Based Career",
           "description": "Hands-on practical work.",
-          "imageUrl": "/images/appliance_04.png"
+          "imageUrl": "/images/appliances/appliance_04.png"
         },
         {
           "title": "Stable Income Potential",
           "description": "Daily service requirements.",
-          "imageUrl": "/images/appliance_05.png"
+          "imageUrl": "/images/appliances/appliance_05.png"
         }
       ]
     },
@@ -236,12 +229,34 @@
       "title": "Who Can Enroll",
       "data": [
         {
-          "title": "Eligibility",
+          "title": "Educational Background",
           "points": [
-            "10th / 12th pass students",
+            "10th / 12th Pass",
             "ITI / Diploma holders",
-            "Electricians",
+            "Engineering graduates",
             "Freshers & working professionals"
+          ]
+        },
+        {
+          "title": "Professional Background",
+          "points": [
+            "Freshers",
+            "Service technicians",
+            "Career switchers"
+          ]
+        },
+        {
+          "title": "Language Skills",
+          "points": [
+            "Basic English, Hindi or the regional language.",
+            "Ability to understand instructions"
+          ]
+        },
+        {
+          "title": "Special Focus Groups",
+          "points": [
+            "Unemployed youth",
+            "Small business aspirants"
           ]
         }
       ]
@@ -304,9 +319,9 @@
         }
       ],
       "images": [
-        "/images/appliance_07.png",
-        "/images/appliance_08.png",
-        "/images/appliance_06.png"
+        "/images/appliances/appliance_07.png",
+        "/images/appliances/appliance_08.png",
+        "/images/appliances/appliance_06.png"
       ]
     },
     "industryBenefits": {
@@ -355,7 +370,7 @@
       "secondLine": "IT Skills",
       "subtitle": "",
       "description": "Learn practical laptop repair and basic networking skills to power homes, offices, and small businesses.",
-      "imageSrc": "/images/laptop_01.png",
+      "imageSrc": "/images/laptop/laptop_01.png",
       "imageAlt": "Laptop repair lab, technician tools"
     },
     "whyChoose": {
@@ -365,22 +380,22 @@
         {
           "title": "Industry Growth",
           "description": "IT hardware support continues to grow with increasing device usage.",
-          "imageUrl": "/images/laptop_02.png"
+          "imageUrl": "/images/laptop/laptop_02.png"
         },
         {
           "title": "Job Security",
           "description": "Every office and home needs regular system maintenance.",
-          "imageUrl": "/images/laptop_03.png"
+          "imageUrl": "/images/laptop/laptop_03.png"
         },
         {
           "title": "Everyday Relevance",
           "description": "Skills used daily across industries.",
-          "imageUrl": "/images/laptop_04.png"
+          "imageUrl": "/images/laptop/laptop_04.png"
         },
         {
           "title": "Technology Evolution",
           "description": "Continuous upgrades create long-term opportunities.",
-          "imageUrl": "/images/laptop_05.png"
+          "imageUrl": "/images/laptop/laptop_05.png"
         }
       ]
     },
@@ -392,7 +407,8 @@
           "points": [
             "10th / 12th Pass",
             "ITI / Diploma holders",
-            "Engineering graduates"
+            "Engineering graduates",
+            "Freshers & working professionals"
           ]
         },
         {
@@ -406,7 +422,7 @@
         {
           "title": "Language Skills",
           "points": [
-            "Basic English or Hindi",
+            "Basic English, Hindi or the regional language.",
             "Ability to understand instructions"
           ]
         },
@@ -472,9 +488,9 @@
         }
       ],
       "images": [
-        "/images/laptop_06.png",
-        "/images/laptop_07.png",
-        "/images/laptop_05.png"
+        "/images/laptop/laptop_06.png",
+        "/images/laptop/laptop_07.png",
+        "/images/laptop/laptop_05.png"
       ]
     },
     "industryBenefits": {
@@ -522,7 +538,7 @@
       "titleHighlight": "Electric Vehicle Skills",
       "subtitle": "",
       "description": "Practical training. Limited seats.",
-      "imageSrc": "/solar-unsplash_09.png",
+      "imageSrc": "/images/ev/ev_01.png",
       "imageAlt": "EV training lab, electric vehicles"
     },
     "whyChoose": {
@@ -532,22 +548,22 @@
         {
           "title": "Industry Shift",
           "description": "Transition from fuel to electric.",
-          "imageUrl": "/solar-unsplash_01.jpg"
+          "imageUrl": "/images/ev/ev_02.png"
         },
         {
           "title": "High Skill Demand",
           "description": "Limited trained EV technicians.",
-          "imageUrl": "/solar-unsplash_02.jpg"
+          "imageUrl": "/images/ev/ev_03.png"
         },
         {
           "title": "Technology-Driven Career",
           "description": "Modern automotive systems.",
-          "imageUrl": "/solar-unsplash_03.jpg"
+          "imageUrl": "/images/ev/ev_04.png"
         },
         {
           "title": "Future-Ready Skill",
           "description": "Long-term industry relevance.",
-          "imageUrl": "/solar-unsplash_04.jpg"
+          "imageUrl": "/images/ev/ev_05.png"
         }
       ]
     },
@@ -555,12 +571,34 @@
       "title": "Who Can Enroll in Our EV Technician Training Program",
       "data": [
         {
-          "title": "Eligibility",
+          "title": "Educational Background",
           "points": [
+            "10th / 12th Pass",
             "ITI / Diploma holders",
-            "Automotive technicians",
             "Engineering graduates",
+            "Freshers & working professionals"
+          ]
+        },
+        {
+          "title": "Professional Background",
+          "points": [
+            "Freshers",
+            "Service technicians",
             "Career switchers"
+          ]
+        },
+        {
+          "title": "Language Skills",
+          "points": [
+            "Basic English, Hindi or the regional language.",
+            "Ability to understand instructions"
+          ]
+        },
+        {
+          "title": "Special Focus Groups",
+          "points": [
+            "Unemployed youth",
+            "Small business aspirants"
           ]
         }
       ]
@@ -618,9 +656,9 @@
         }
       ],
       "images": [
-        "/solar-unsplash_07.jpg",
-        "/solar-unsplash_06.jpg",
-        "/solar-unsplash_05.jpg"
+        "/images/ev/ev_06.png",
+        "/images/ev/ev_07.png",
+        "/images/ev/ev_08.png"
       ]
     },
     "industryBenefits": {
@@ -669,7 +707,7 @@
       "secondLine": "",
       "subtitle": "",
       "description": "Train for telecom infrastructure, network support, and field operations.",
-      "imageSrc": "/images/telecom_08.png",
+      "imageSrc": "/images/telecom/telecom_08.png",
       "imageAlt": "Solar panel installation"
     },
     "whyChoose": {
@@ -679,22 +717,22 @@
         {
           "title": "Network Expansion",
           "description": "More towers, more technicians.",
-          "imageUrl": "/images/telecom_01.png"
+          "imageUrl": "/images/telecom/telecom_01.png"
         },
         {
           "title": "Infrastructure Growth",
           "description": "Fiber and wireless deployment.",
-          "imageUrl": "/images/telecom_02.png"
+          "imageUrl": "/images/telecom/telecom_02.png"
         },
         {
           "title": "Field-Based Roles",
           "description": "Outdoor technical careers.",
-          "imageUrl": "/images/telecom_03.png"
+          "imageUrl": "/images/telecom/telecom_03.png"
         },
         {
           "title": "Technology Advancement",
           "description": "5G and next-gen networks.",
-          "imageUrl": "/images/telecom_04.png"
+          "imageUrl": "/images/telecom/telecom_04.png"
         }
       ]
     },
@@ -702,12 +740,34 @@
       "title": "Who Can Enroll",
       "data": [
         {
-          "title": "Eligibility",
+          "title": "Educational Background",
           "points": [
-            "10th / 12th pass students",
+            "10th / 12th Pass",
             "ITI / Diploma holders",
-            "Electronics learners",
-            "Field-work interested candidates"
+            "Engineering graduates",
+            "Freshers & working professionals"
+          ]
+        },
+        {
+          "title": "Professional Background",
+          "points": [
+            "Freshers",
+            "Service technicians",
+            "Career switchers"
+          ]
+        },
+        {
+          "title": "Language Skills",
+          "points": [
+            "Basic English, Hindi or the regional language.",
+            "Ability to understand instructions"
+          ]
+        },
+        {
+          "title": "Special Focus Groups",
+          "points": [
+            "Unemployed youth",
+            "Small business aspirants"
           ]
         }
       ]
@@ -765,9 +825,9 @@
         }
       ],
       "images": [
-        "/images/telecom_05.png",
-        "/images/telecom_06.png",
-        "/images/telecom_07.png"
+        "/images/telecom/telecom_05.png",
+        "/images/telecom/telecom_06.png",
+        "/images/telecom/telecom_07.png"
       ]
     },
     "industryBenefits": {

@@ -92,7 +92,7 @@ const EligibilitySection = ({
                 {card.points.map((point) => (
                   <li key={point} className="flex items-start">
                     <CheckCircle className="h-4 w-4 text-primary mr-2 mt-1 flex-shrink-0" />
-                    <span className="text-wrap break-all">{point}</span>
+                    <span className="text-wrap break-words">{point}</span>
                   </li>
                 ))}
               </ul>
