@@ -1,5 +1,3 @@
-// src/app/courses/page.tsx
-
 import type { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
@@ -25,18 +23,18 @@ interface Course {
 
 const courses: Course[] = [
   {
-    id: "1",
-    slug: "laptop-repair-training",
-    title: "Laptop Repair & Basic Networking",
-    description: "Master laptop and computer repair along with basic networking skills. Perfect for starting your own service center or joining established repair shops.",
+    id: "4",
+    slug: "solar-technician-training",
+    title: "Solar Technician Training",
+    description: "Join the renewable energy revolution. Learn rooftop solar installation and maintenance in a fast-growing sector.",
     points: [
-      "Laptop & computer repair",
-      "Service center ready skill",
-      "Shop & job options",
+      "Rooftop solar work",
+      "Renewable energy sector",
+      "Fast-growing demand",
     ],
-    duration: "3 Months",
-    level: "Beginner",
-    icon: <Laptop className="size-6 text-primary" />,
+    duration: "4 Months",
+    level: "Intermediate",
+    icon: <Sun className="size-6 text-primary" />,
   },
   {
     id: "2",
@@ -53,32 +51,18 @@ const courses: Course[] = [
     icon: <Home className="size-6 text-primary" />,
   },
   {
-    id: "3",
-    slug: "telecom-5g-technician-training",
-    title: "Telecom 5G Technician",
-    description: "Enter the growing telecom industry with 5G technology skills. Field work opportunities in a rapidly expanding sector.",
+    id: "1",
+    slug: "laptop-repair-training",
+    title: "Laptop Repair & Basic Networking",
+    description: "Master laptop and computer repair along with basic networking skills. Perfect for starting your own service center or joining established repair shops.",
     points: [
-      "Telecom & field work",
-      "Growing industry",
-      "Outdoor job roles",
+      "Laptop & computer repair",
+      "Service center ready skill",
+      "Shop & job options",
     ],
     duration: "3 Months",
-    level: "Intermediate",
-    icon: <Signal className="size-6 text-primary" />,
-  },
-  {
-    id: "4",
-    slug: "solar-technician-training",
-    title: "Solar Technician Training",
-    description: "Join the renewable energy revolution. Learn rooftop solar installation and maintenance in a fast-growing sector.",
-    points: [
-      "Rooftop solar work",
-      "Renewable energy sector",
-      "Fast-growing demand",
-    ],
-    duration: "4 Months",
-    level: "Intermediate",
-    icon: <Sun className="size-6 text-primary" />,
+    level: "Beginner",
+    icon: <Laptop className="size-6 text-primary" />,
   },
   {
     id: "5",
@@ -93,6 +77,20 @@ const courses: Course[] = [
     duration: "3.5 Months",
     level: "Intermediate",
     icon: <Car className="size-6 text-primary" />,
+  },
+  {
+    id: "3",
+    slug: "telecom-5g-technician-training",
+    title: "Telecom 5G Technician",
+    description: "Enter the growing telecom industry with 5G technology skills. Field work opportunities in a rapidly expanding sector.",
+    points: [
+      "Telecom & field work",
+      "Growing industry",
+      "Outdoor job roles",
+    ],
+    duration: "3 Months",
+    level: "Intermediate",
+    icon: <Signal className="size-6 text-primary" />,
   },
 ];
 

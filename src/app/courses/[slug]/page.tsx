@@ -1,16 +1,13 @@
-// src/app/courses/[slug]/page.tsx
-
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Check, Phone, MessageCircle, ArrowRight, User } from "lucide-react";
+import {ArrowRight, User } from "lucide-react";
 import coursesData from "@/data/courses.json";
 import WhyChooseSolar from "@/components/WhyChooseSolar";
 import EligibilitySection from "@/components/EligibilitySection";
 import CurriculumSection from "@/components/CurriculumSection";
 import TeachingApproach from "@/components/TeachingApproach";
 import IndustryBenefits from "@/components/IndustryBenefits";
-import ContactSection from "@/components/ContactSection";
 
 // Generate static params for all courses
 export function generateStaticParams() {

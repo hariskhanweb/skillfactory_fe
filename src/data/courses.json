@@ -1,471 +1,4 @@
 {
-  "laptop-repair-training": {
-    "id": "1",
-    "slug": "laptop-repair-training",
-    "title": "Laptop Repair Training",
-    "hero": {
-      "title": "Learn a Skill.",
-      "firstLine": "Building Tomorrow with",
-      "titleHighlight": "Smarter",
-      "secondLine": "IT Skills",
-      "subtitle": "",
-      "description": "Learn practical laptop repair and basic networking skills to power homes, offices, and small businesses.",
-      "imageSrc": "/solar-unsplash_06.png",
-      "imageAlt": "Laptop repair lab, technician tools"
-    },
-    "whyChoose": {
-      "title": "Why Choose a Career in IT & Laptop Repair?",
-      "description": "The demand for skilled computer technicians is rising across service centers, offices, and local businesses.",
-      "cards": [
-        {
-          "title": "Industry Growth",
-          "description": "IT hardware support continues to grow with increasing device usage.",
-          "imageUrl": "/solar-unsplash_01.jpg"
-        },
-        {
-          "title": "Job Security",
-          "description": "Every office and home needs regular system maintenance.",
-          "imageUrl": "/solar-unsplash_02.jpg"
-        },
-        {
-          "title": "Everyday Relevance",
-          "description": "Skills used daily across industries.",
-          "imageUrl": "/solar-unsplash_03.jpg"
-        },
-        {
-          "title": "Technology Evolution",
-          "description": "Continuous upgrades create long-term opportunities.",
-          "imageUrl": "/solar-unsplash_04.jpg"
-        }
-      ]
-    },
-    "eligibility": {
-      "title": "Who Can Enroll in Our Laptop Repair Program",
-      "data": [
-        {
-          "title": "Educational Background",
-          "points": [
-            "10th / 12th Pass",
-            "ITI / Diploma holders",
-            "Engineering graduates"
-          ]
-        },
-        {
-          "title": "Professional Background",
-          "points": [
-            "Freshers",
-            "Service technicians",
-            "Career switchers"
-          ]
-        },
-        {
-          "title": "Language Skills",
-          "points": [
-            "Basic English or Hindi",
-            "Ability to understand instructions"
-          ]
-        },
-        {
-          "title": "Special Focus Groups",
-          "points": [
-            "Unemployed youth",
-            "Small business aspirants"
-          ]
-        }
-      ]
-    },
-    "curriculum": {
-      "title": "What We Will Teach",
-      "description": "Our comprehensive curriculum covers every aspect of laptop and computer repair.",
-      "items": [
-        {
-          "id": "item-1",
-          "title": "Laptop Hardware Fundamentals",
-          "content": "Understanding internal components and system architecture."
-        },
-        {
-          "id": "item-2",
-          "title": "Operating Systems & Software",
-          "content": "Installation, configuration, and troubleshooting."
-        },
-        {
-          "id": "item-3",
-          "title": "Networking Basics",
-          "content": "LAN setup, routers, and connectivity issues."
-        },
-        {
-          "id": "item-4",
-          "title": "Diagnostics & Repair",
-          "content": "Identifying and resolving common faults."
-        },
-        {
-          "id": "item-5",
-          "title": "Customer Handling Basics",
-          "content": "Service workflow and communication."
-        }
-      ]
-    },
-    "teachingApproach": {
-      "title": "How We Will Teach",
-      "description": "",
-      "features": [
-        {
-          "title": "70:30 Practical to Theory Ratio",
-          "description": ""
-        },
-        {
-          "title": "Industry-experienced trainers",
-          "description": ""
-        },
-        {
-          "title": "Hands-on lab practice",
-          "description": ""
-        },
-        {
-          "title": "Real fault simulation",
-          "description": ""
-        }
-      ],
-      "images": [
-        "/solar-unsplash_07.jpg",
-        "/solar-unsplash_06.jpg",
-        "/solar-unsplash_05.jpg"
-      ]
-    },
-    "industryBenefits": {
-      "importanceTitle": "Why It's Important Today",
-      "importanceHeading": "The Laptop Repair Industry is thriving. Are you ready?",
-      "importanceData": [
-        {
-          "title": "Digital Expansion",
-          "description": "Every sector relies on computers."
-        },
-        {
-          "title": "Hardware Maintenance Demand",
-          "description": "Devices require regular servicing."
-        },
-        {
-          "title": "Service Business Opportunity",
-          "description": "Low-investment, high-demand skill."
-        }
-      ],
-      "benefitsTitle": "How It Will Benefit You",
-      "benefitsHeading": "Build a rewarding and stable career.",
-      "benefitsData": [
-        {
-          "title": "Immediate Employability",
-          "description": "Start working after training."
-        },
-        {
-          "title": "Career Progression",
-          "description": "Technician → Senior Tech → Business Owner."
-        },
-        {
-          "title": "Self-Employment Ready",
-          "description": "Repair shop & freelance work."
-        }
-      ]
-    }
-  },
-  "appliance-repair-training": {
-    "id": "2",
-    "slug": "appliance-repair-training",
-    "title": "Home Appliance Repair Training",
-    "hero": {
-      "title": "Learn a Skill.",
-      "firstLine": "Powering Homes with",
-      "titleHighlight": "Skilled",
-      "secondLine": "Appliance Technicians",
-      "subtitle": "",
-      "description": "Learn hands-on repair skills for ACs, refrigerators, washing machines, and more.",
-      "imageSrc": "/solar-unsplash_07.png",
-      "imageAlt": "Appliance repair practical"
-    },
-    "whyChoose": {
-      "title": "Why Choose a Career in Appliance Repair?",
-      "description": "Appliances are essential in every home, creating constant demand for skilled technicians.",
-      "cards": [
-        {
-          "title": "Consistent Demand",
-          "description": "Every household needs servicing.",
-          "imageUrl": "/solar-unsplash_01.jpg"
-        },
-        {
-          "title": "Local Job Opportunities",
-          "description": "Work in your own city.",
-          "imageUrl": "/solar-unsplash_02.jpg"
-        },
-        {
-          "title": "Field-Based Career",
-          "description": "Hands-on practical work.",
-          "imageUrl": "/solar-unsplash_03.jpg"
-        },
-        {
-          "title": "Stable Income Potential",
-          "description": "Daily service requirements.",
-          "imageUrl": "/solar-unsplash_04.jpg"
-        }
-      ]
-    },
-    "eligibility": {
-      "title": "Who Can Enroll",
-      "data": [
-        {
-          "title": "Eligibility",
-          "points": [
-            "10th / 12th pass students",
-            "ITI / Diploma holders",
-            "Electricians",
-            "Freshers & working professionals"
-          ]
-        }
-      ]
-    },
-    "curriculum": {
-      "title": "What We Will Teach",
-      "description": "Our comprehensive curriculum covers repair of all major home appliances.",
-      "items": [
-        {
-          "id": "item-1",
-          "title": "Electrical fundamentals",
-          "content": "Learn the basics of electrical systems and circuits as they apply to appliance repair."
-        },
-        {
-          "id": "item-2",
-          "title": "AC installation & servicing",
-          "content": "Master air conditioner installation, maintenance, and repair techniques."
-        },
-        {
-          "id": "item-3",
-          "title": "Refrigerator cooling systems",
-          "content": "Understand refrigerator cooling mechanisms, troubleshooting, and repair procedures."
-        },
-        {
-          "id": "item-4",
-          "title": "Washing machine repair",
-          "content": "Learn to diagnose and fix common washing machine issues and malfunctions."
-        },
-        {
-          "id": "item-5",
-          "title": "Microwave diagnostics",
-          "content": "Master microwave troubleshooting and repair techniques."
-        },
-        {
-          "id": "item-6",
-          "title": "Safety procedures",
-          "content": "Understand essential safety protocols and procedures for appliance repair work."
-        }
-      ]
-    },
-    "teachingApproach": {
-      "title": "How We Will Teach",
-      "description": "",
-      "features": [
-        {
-          "title": "Practical demonstrations",
-          "description": ""
-        },
-        {
-          "title": "Real appliance handling",
-          "description": ""
-        },
-        {
-          "title": "Instructor-guided repair",
-          "description": ""
-        },
-        {
-          "title": "Field-oriented training",
-          "description": ""
-        }
-      ],
-      "images": [
-        "/solar-unsplash_07.jpg",
-        "/solar-unsplash_06.jpg",
-        "/solar-unsplash_05.jpg"
-      ]
-    },
-    "industryBenefits": {
-      "importanceTitle": "Why It's Important Today",
-      "importanceHeading": "The Appliance Repair Industry is essential. Are you ready?",
-      "importanceData": [
-        {
-          "title": "High appliance penetration",
-          "description": ""
-        },
-        {
-          "title": "Rising service dependency",
-          "description": ""
-        },
-        {
-          "title": "Shortage of trained technicians",
-          "description": ""
-        }
-      ],
-      "benefitsTitle": "How It Will Benefit You",
-      "benefitsHeading": "Build a rewarding and flexible career.",
-      "benefitsData": [
-        {
-          "title": "Quick job readiness",
-          "description": ""
-        },
-        {
-          "title": "Field technician roles",
-          "description": ""
-        },
-        {
-          "title": "Independent service work",
-          "description": ""
-        }
-      ]
-    }
-  },
-  "telecom-5g-technician-training": {
-    "id": "3",
-    "slug": "telecom-5g-technician-training",
-    "title": "Telecom 5G Technician Training",
-    "hero": {
-      "title": "Learn a Skill.",
-      "firstLine": "Connecting the Future with",
-      "titleHighlight": "Telecom & 5G Skills",
-      "secondLine": "",
-      "subtitle": "",
-      "description": "Train for telecom infrastructure, network support, and field operations.",
-      "imageSrc": "/solar-unsplash_10.png",
-      "imageAlt": "Solar panel installation"
-    },
-    "whyChoose": {
-      "title": "Why Choose a Career in Telecom?",
-      "description": "Telecom networks are expanding rapidly with 5G rollout.",
-      "cards": [
-        {
-          "title": "Network Expansion",
-          "description": "More towers, more technicians.",
-          "imageUrl": "/solar-unsplash_01.jpg"
-        },
-        {
-          "title": "Infrastructure Growth",
-          "description": "Fiber and wireless deployment.",
-          "imageUrl": "/solar-unsplash_02.jpg"
-        },
-        {
-          "title": "Field-Based Roles",
-          "description": "Outdoor technical careers.",
-          "imageUrl": "/solar-unsplash_03.jpg"
-        },
-        {
-          "title": "Technology Advancement",
-          "description": "5G and next-gen networks.",
-          "imageUrl": "/solar-unsplash_04.jpg"
-        }
-      ]
-    },
-    "eligibility": {
-      "title": "Who Can Enroll",
-      "data": [
-        {
-          "title": "Eligibility",
-          "points": [
-            "10th / 12th pass students",
-            "ITI / Diploma holders",
-            "Electronics learners",
-            "Field-work interested candidates"
-          ]
-        }
-      ]
-    },
-    "curriculum": {
-      "title": "What We Will Teach",
-      "description": "Our comprehensive curriculum covers every aspect of the solar energy industry.",
-      "items": [
-        {
-          "id": "item-1",
-          "title": "Telecom fundamentals",
-          "content": "Learn the basics of telecommunications systems, network architecture, and communication principles."
-        },
-        {
-          "id": "item-2",
-          "title": "Mobile network basics",
-          "content": "Understand mobile network technologies, signal transmission, and cellular network operations."
-        },
-        {
-          "id": "item-3",
-          "title": "Tower equipment overview",
-          "content": "Learn about telecom tower components, antenna systems, and tower infrastructure."
-        },
-        {
-          "id": "item-4",
-          "title": "Fiber optic fundamentals",
-          "content": "Master fiber optic cable installation, splicing, and maintenance techniques."
-        },
-        {
-          "id": "item-5",
-          "title": "Safety & field practices",
-          "content": "Understand essential safety protocols and best practices for field work in telecom."
-        }
-      ]
-    },
-    "teachingApproach": {
-      "title": "How We Will Teach",
-      "description": "We focus on a practical, hands-on approach to ensure our students are industry-ready.",
-      "features": [
-        {
-          "title": "Concept sessions",
-          "description": ""
-        },
-        {
-          "title": "Equipment demonstrations",
-          "description": ""
-        },
-        {
-          "title": "Field simulations",
-          "description": ""
-        },
-        {
-          "title": "Safety-focused training",
-          "description": ""
-        }
-      ],
-      "images": [
-        "/solar-unsplash_07.jpg",
-        "/solar-unsplash_06.jpg",
-        "/solar-unsplash_05.jpg"
-      ]
-    },
-    "industryBenefits": {
-      "importanceTitle": "Why It's Important Today",
-      "importanceHeading": "The telecom industry is expanding rapidly. Are you ready?",
-      "importanceData": [
-        {
-          "title": "Nationwide 5G deployment",
-          "description": ""
-        },
-        {
-          "title": "Continuous network upgrades",
-          "description": ""
-        },
-        {
-          "title": "Skilled manpower shortage",
-          "description": ""
-        }
-      ],
-      "benefitsTitle": "How It Will Benefit You",
-        "benefitsHeading": "Build a rewarding and stable career.",
-        "benefitsData": [
-        {
-          "title": "Telecom field technician roles",
-          "description": ""
-        },
-        {
-          "title": "Network support jobs",
-          "description": ""
-        },
-        {
-          "title": "Infrastructure projects",
-          "description": ""
-        }
-      ]
-    }
-  },
   "solar-technician-training": {
     "id": "4",
     "slug": "solar-technician-training",
@@ -659,6 +192,326 @@
       ]
     }
   },
+  "appliance-repair-training": {
+    "id": "2",
+    "slug": "appliance-repair-training",
+    "title": "Home Appliance Repair Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Powering Homes with",
+      "titleHighlight": "Skilled",
+      "secondLine": "Appliance Technicians",
+      "subtitle": "",
+      "description": "Learn hands-on repair skills for ACs, refrigerators, washing machines, and more.",
+      "imageSrc": "/images/appliance_03.png",
+      "imageAlt": "Appliance repair practical"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in Appliance Repair?",
+      "description": "Appliances are essential in every home, creating constant demand for skilled technicians.",
+      "cards": [
+        {
+          "title": "Consistent Demand",
+          "description": "Every household needs servicing.",
+          "imageUrl": "/images/appliance_01.png"
+        },
+        {
+          "title": "Local Job Opportunities",
+          "description": "Work in your own city.",
+          "imageUrl": "/images/appliance_02.png"
+        },
+        {
+          "title": "Field-Based Career",
+          "description": "Hands-on practical work.",
+          "imageUrl": "/images/appliance_04.png"
+        },
+        {
+          "title": "Stable Income Potential",
+          "description": "Daily service requirements.",
+          "imageUrl": "/images/appliance_05.png"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll",
+      "data": [
+        {
+          "title": "Eligibility",
+          "points": [
+            "10th / 12th pass students",
+            "ITI / Diploma holders",
+            "Electricians",
+            "Freshers & working professionals"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers repair of all major home appliances.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Electrical fundamentals",
+          "content": "Learn the basics of electrical systems and circuits as they apply to appliance repair."
+        },
+        {
+          "id": "item-2",
+          "title": "AC installation & servicing",
+          "content": "Master air conditioner installation, maintenance, and repair techniques."
+        },
+        {
+          "id": "item-3",
+          "title": "Refrigerator cooling systems",
+          "content": "Understand refrigerator cooling mechanisms, troubleshooting, and repair procedures."
+        },
+        {
+          "id": "item-4",
+          "title": "Washing machine repair",
+          "content": "Learn to diagnose and fix common washing machine issues and malfunctions."
+        },
+        {
+          "id": "item-5",
+          "title": "Microwave diagnostics",
+          "content": "Master microwave troubleshooting and repair techniques."
+        },
+        {
+          "id": "item-6",
+          "title": "Safety procedures",
+          "content": "Understand essential safety protocols and procedures for appliance repair work."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "",
+      "features": [
+        {
+          "title": "Practical demonstrations",
+          "description": ""
+        },
+        {
+          "title": "Real appliance handling",
+          "description": ""
+        },
+        {
+          "title": "Instructor-guided repair",
+          "description": ""
+        },
+        {
+          "title": "Field-oriented training",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/images/appliance_07.png",
+        "/images/appliance_08.png",
+        "/images/appliance_06.png"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The Appliance Repair Industry is essential. Are you ready?",
+      "importanceData": [
+        {
+          "title": "High appliance penetration",
+          "description": ""
+        },
+        {
+          "title": "Rising service dependency",
+          "description": ""
+        },
+        {
+          "title": "Shortage of trained technicians",
+          "description": ""
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and flexible career.",
+      "benefitsData": [
+        {
+          "title": "Quick job readiness",
+          "description": ""
+        },
+        {
+          "title": "Field technician roles",
+          "description": ""
+        },
+        {
+          "title": "Independent service work",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "laptop-repair-training": {
+    "id": "1",
+    "slug": "laptop-repair-training",
+    "title": "Laptop Repair Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Building Tomorrow with",
+      "titleHighlight": "Smarter",
+      "secondLine": "IT Skills",
+      "subtitle": "",
+      "description": "Learn practical laptop repair and basic networking skills to power homes, offices, and small businesses.",
+      "imageSrc": "/images/laptop_01.png",
+      "imageAlt": "Laptop repair lab, technician tools"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in IT & Laptop Repair?",
+      "description": "The demand for skilled computer technicians is rising across service centers, offices, and local businesses.",
+      "cards": [
+        {
+          "title": "Industry Growth",
+          "description": "IT hardware support continues to grow with increasing device usage.",
+          "imageUrl": "/images/laptop_02.png"
+        },
+        {
+          "title": "Job Security",
+          "description": "Every office and home needs regular system maintenance.",
+          "imageUrl": "/images/laptop_03.png"
+        },
+        {
+          "title": "Everyday Relevance",
+          "description": "Skills used daily across industries.",
+          "imageUrl": "/images/laptop_04.png"
+        },
+        {
+          "title": "Technology Evolution",
+          "description": "Continuous upgrades create long-term opportunities.",
+          "imageUrl": "/images/laptop_05.png"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll in Our Laptop Repair Program",
+      "data": [
+        {
+          "title": "Educational Background",
+          "points": [
+            "10th / 12th Pass",
+            "ITI / Diploma holders",
+            "Engineering graduates"
+          ]
+        },
+        {
+          "title": "Professional Background",
+          "points": [
+            "Freshers",
+            "Service technicians",
+            "Career switchers"
+          ]
+        },
+        {
+          "title": "Language Skills",
+          "points": [
+            "Basic English or Hindi",
+            "Ability to understand instructions"
+          ]
+        },
+        {
+          "title": "Special Focus Groups",
+          "points": [
+            "Unemployed youth",
+            "Small business aspirants"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers every aspect of laptop and computer repair.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Laptop Hardware Fundamentals",
+          "content": "Understanding internal components and system architecture."
+        },
+        {
+          "id": "item-2",
+          "title": "Operating Systems & Software",
+          "content": "Installation, configuration, and troubleshooting."
+        },
+        {
+          "id": "item-3",
+          "title": "Networking Basics",
+          "content": "LAN setup, routers, and connectivity issues."
+        },
+        {
+          "id": "item-4",
+          "title": "Diagnostics & Repair",
+          "content": "Identifying and resolving common faults."
+        },
+        {
+          "id": "item-5",
+          "title": "Customer Handling Basics",
+          "content": "Service workflow and communication."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "",
+      "features": [
+        {
+          "title": "70:30 Practical to Theory Ratio",
+          "description": ""
+        },
+        {
+          "title": "Industry-experienced trainers",
+          "description": ""
+        },
+        {
+          "title": "Hands-on lab practice",
+          "description": ""
+        },
+        {
+          "title": "Real fault simulation",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/images/laptop_06.png",
+        "/images/laptop_07.png",
+        "/images/laptop_05.png"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The Laptop Repair Industry is thriving. Are you ready?",
+      "importanceData": [
+        {
+          "title": "Digital Expansion",
+          "description": "Every sector relies on computers."
+        },
+        {
+          "title": "Hardware Maintenance Demand",
+          "description": "Devices require regular servicing."
+        },
+        {
+          "title": "Service Business Opportunity",
+          "description": "Low-investment, high-demand skill."
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and stable career.",
+      "benefitsData": [
+        {
+          "title": "Immediate Employability",
+          "description": "Start working after training."
+        },
+        {
+          "title": "Career Progression",
+          "description": "Technician → Senior Tech → Business Owner."
+        },
+        {
+          "title": "Self-Employment Ready",
+          "description": "Repair shop & freelance work."
+        }
+      ]
+    }
+  },
   "ev-technician-training": {
     "id": "5",
     "slug": "ev-technician-training",
@@ -800,6 +653,153 @@
         },
         {
           "title": "Future mobility careers",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "telecom-5g-technician-training": {
+    "id": "3",
+    "slug": "telecom-5g-technician-training",
+    "title": "Telecom 5G Technician Training",
+    "hero": {
+      "title": "Learn a Skill.",
+      "firstLine": "Connecting the Future with",
+      "titleHighlight": "Telecom & 5G Skills",
+      "secondLine": "",
+      "subtitle": "",
+      "description": "Train for telecom infrastructure, network support, and field operations.",
+      "imageSrc": "/images/telecom_08.png",
+      "imageAlt": "Solar panel installation"
+    },
+    "whyChoose": {
+      "title": "Why Choose a Career in Telecom?",
+      "description": "Telecom networks are expanding rapidly with 5G rollout.",
+      "cards": [
+        {
+          "title": "Network Expansion",
+          "description": "More towers, more technicians.",
+          "imageUrl": "/images/telecom_01.png"
+        },
+        {
+          "title": "Infrastructure Growth",
+          "description": "Fiber and wireless deployment.",
+          "imageUrl": "/images/telecom_02.png"
+        },
+        {
+          "title": "Field-Based Roles",
+          "description": "Outdoor technical careers.",
+          "imageUrl": "/images/telecom_03.png"
+        },
+        {
+          "title": "Technology Advancement",
+          "description": "5G and next-gen networks.",
+          "imageUrl": "/images/telecom_04.png"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Who Can Enroll",
+      "data": [
+        {
+          "title": "Eligibility",
+          "points": [
+            "10th / 12th pass students",
+            "ITI / Diploma holders",
+            "Electronics learners",
+            "Field-work interested candidates"
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "title": "What We Will Teach",
+      "description": "Our comprehensive curriculum covers every aspect of the solar energy industry.",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Telecom fundamentals",
+          "content": "Learn the basics of telecommunications systems, network architecture, and communication principles."
+        },
+        {
+          "id": "item-2",
+          "title": "Mobile network basics",
+          "content": "Understand mobile network technologies, signal transmission, and cellular network operations."
+        },
+        {
+          "id": "item-3",
+          "title": "Tower equipment overview",
+          "content": "Learn about telecom tower components, antenna systems, and tower infrastructure."
+        },
+        {
+          "id": "item-4",
+          "title": "Fiber optic fundamentals",
+          "content": "Master fiber optic cable installation, splicing, and maintenance techniques."
+        },
+        {
+          "id": "item-5",
+          "title": "Safety & field practices",
+          "content": "Understand essential safety protocols and best practices for field work in telecom."
+        }
+      ]
+    },
+    "teachingApproach": {
+      "title": "How We Will Teach",
+      "description": "We focus on a practical, hands-on approach to ensure our students are industry-ready.",
+      "features": [
+        {
+          "title": "Concept sessions",
+          "description": ""
+        },
+        {
+          "title": "Equipment demonstrations",
+          "description": ""
+        },
+        {
+          "title": "Field simulations",
+          "description": ""
+        },
+        {
+          "title": "Safety-focused training",
+          "description": ""
+        }
+      ],
+      "images": [
+        "/images/telecom_05.png",
+        "/images/telecom_06.png",
+        "/images/telecom_07.png"
+      ]
+    },
+    "industryBenefits": {
+      "importanceTitle": "Why It's Important Today",
+      "importanceHeading": "The telecom industry is expanding rapidly. Are you ready?",
+      "importanceData": [
+        {
+          "title": "Nationwide 5G deployment",
+          "description": ""
+        },
+        {
+          "title": "Continuous network upgrades",
+          "description": ""
+        },
+        {
+          "title": "Skilled manpower shortage",
+          "description": ""
+        }
+      ],
+      "benefitsTitle": "How It Will Benefit You",
+      "benefitsHeading": "Build a rewarding and stable career.",
+      "benefitsData": [
+        {
+          "title": "Telecom field technician roles",
+          "description": ""
+        },
+        {
+          "title": "Network support jobs",
+          "description": ""
+        },
+        {
+          "title": "Infrastructure projects",
           "description": ""
         }
       ]
