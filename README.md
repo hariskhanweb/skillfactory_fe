@@ -29,6 +29,23 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy as static site (e.g. S3)
+
+The app is configured for static export. Build and upload the output to S3 (or any static host):
+
+```bash
+npm run build
+# or: npm run build:static
+```
+
+Upload the generated **`out`** folder to your S3 bucket and enable static website hosting. Example with AWS CLI:
+
+```bash
+aws s3 sync out/ s3://YOUR-BUCKET-NAME --delete
+```
+
+Configure the bucket for static website hosting (index document: `index.html`, error document: `404.html` or `index.html`).
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

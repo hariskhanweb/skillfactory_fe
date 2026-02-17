@@ -1,11 +1,13 @@
 {
-  "name": "techlocal-solar-training",
+  "name": "skillfactory",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "export": "next build",
+    "build:static": "next build",
+    "deploy:s3": "next build && echo Upload the ./out folder to your S3 bucket",
     "start": "next start",
     "lint": "eslint"
   },
